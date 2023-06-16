@@ -2,6 +2,7 @@ import React from "react";
 export default function NavBar({
     handlePageChange
 }){
+    
     return (
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
@@ -22,7 +23,7 @@ export default function NavBar({
         </li>
         <li class="nav-item">
             {/* Resume Drive Link */}
-          <a class="nav-link" href="#" target="_blank">#Resume</a>
+          <a class="nav-link" href="#" target="_blank">Resume</a>
         </li>
       </ul>
     </div>
